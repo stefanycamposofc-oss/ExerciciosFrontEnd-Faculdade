@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho avaliativo</title>
+    <link href="css/style.css" type="text/css"
+    rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <a href="#" class="logo"> Nordeste</a>
+        <nav class="navbar">
+            <ul>
+                               
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#video-section">Video</a></li>
+                <li><a href="#gallery">Pontos Turisticos</a></li>
+                <li><a href="#recomendacoes">Recomendações de passeios</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#map">Mapa</a></li>
+                <li><a href="#contato">Contato</a></li>
+
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="img/hero.png">
+        </section>
+          
+        <section id="about">
+            <h1>Nordeste: Sol, Cultura e Sabor</h1>
+            <p>O Nordeste é uma das regiões mais ricas e diversas do Brasil, onde o litoral de águas mornas encontra o sertão de paisagens únicas. Da orla paradisíaca de Fernando de Noronha às formações naturais dos Lençóis Maranhenses, a região reúne cenários que impressionam pela beleza e pela variedade.</p>
+
+            <p>Além da natureza exuberante, o Nordeste é guardião de tradições que atravessam gerações: o forró que embala o São João, o artesanato transmitido de mãe para filha, a poesia do cordel e do repente. Sua culinária, marcada por sabores intensos como o acarajé, a moqueca e o baião de dois, conta a história de um povo criativo e resistente.</p>
+        </section>
+
+        <section id="video-section">
+            <h2>Um Olhar Mais Perto</h2>
+            <div id="video-container">
+              <iframe src="https://www.youtube.com/embed/1WIWe0EsCIk?autoplay=1&mute=1"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </section>
+
+        <section id="gallery">
+            <h1>Pontos Turisticos</h1>
+            <img src="img/alagoas.jpg" alt="Alagoas">
+            <img src="img/bahia.jpg" alt="Bahia">
+            <img src="img/ceara.jpg"alt="Ceará">
+            <img src="img/maranhao.jpg"alt="Maranhão">
+            <img src="img/paraiba.jpg"alt="Paraíba">
+            <img src="img/pernambuco.jpg"alt="Pernambuco">
+            <img src="img/piaui.jpg"alt="Piauí">
+            <img src="img/rgn.jpg"alt="Rio Grande do Norte">
+            <img src="img/serjipe.jpg"alt="Serjipe">
+        </section>
+
+          <section id="recomendacoes">
+            <h2>Recomendações de Pontos Turísticos</h2>
+            <div class="recomendacoes-grid">
+              <div class="card"><strong>Fernando de Noronha (PE)</strong><p>Praias intocadas e mergulho de classe mundial.</p></div>
+              <div class="card"><strong>Chapada Diamantina (BA)</strong><p>Cachoeiras e trilhas de tirar o fôlego.</p></div>
+              <div class="card"><strong>Jericoacoara (CE)</strong><p>Dunas e pôr do sol famoso.</p></div>
+              <div class="card"><strong>Lençóis Maranhenses (MA)</strong><p>Dunas brancas com lagoas de água doce.</p></div>
+              <div class="card"><strong>Praia da Pipa (RN)</strong><p>Falésias e vida noturna animada.</p></div>
+              <div class="card"><strong>Pelourinho (BA)</strong><p>Patrimônio histórico da UNESCO.</p></div>
+            </div>
+          </section>
+        
+          <section id="curiosidades">
+            <h2>Curiosidades do Nordeste</h2>
+            <div class="cards-grid">
+              <div class="card">
+                <h3>Alagoas</h3>
+                <p>Maceió é conhecida como o "Caribe brasileiro" pelas piscinas naturais de águas cristalinas na Praia do Francês e em Maragogi.</p>
+              </div>
+              <div class="card">
+                <h3>Bahia</h3>
+                <p>Salvador foi a primeira capital do Brasil e tem o maior conjunto arquitetônico colonial preservado das Américas, no Pelourinho.</p>
+              </div>
+              <div class="card">
+                <h3>Ceará</h3>
+                <p>Jericoacoara já foi considerada uma das dez praias mais bonitas do mundo por publicações internacionais.</p>
+              </div>
+              <div class="card">
+                <h3>Maranhão</h3>
+                <p>Os Lençóis Maranhenses formam um deserto de dunas brancas com lagoas de água doce, um fenômeno natural único no mundo.</p>
+              </div>
+              <div class="card">
+                <h3>Paraíba</h3>
+                <p>João Pessoa abriga o Ponta do Seixas, o ponto mais oriental das Américas, onde o sol nasce primeiro no continente.</p>
+              </div>
+              <div class="card">
+                <h3>Pernambuco</h3>
+                <p>Fernando de Noronha, mesmo a mais de 500 km da costa, pertence ao estado e é considerado um dos melhores destinos de mergulho do mundo.</p>
+              </div>
+              <div class="card">
+                <h3>Piauí</h3>
+                <p>O Parque Nacional de Sete Cidades tem formações rochosas tão curiosas que já foram associadas a antigas civilizações perdidas.</p>
+              </div>
+              <div class="card">
+                <h3>Rio Grande do Norte</h3>
+                <p>Natal é apelidada de "Cidade do Sol" por ter um dos climas mais ensolarados do Brasil, com poucos dias de chuva por ano.</p>
+              </div>
+              <div class="card">
+                <h3>Sergipe</h3>
+                <p>É o menor estado do Brasil, mas concentra praias urbanas como a Praia de Atalaia, a poucos minutos do centro de Aracaju.</p>
+              </div>
+            </div>
+          </section>
+          
+        <section id="map">
+            <iframe 
+              src="https://maps.google.com/maps?q=Nordeste,Brasil&z=6&output=embed" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+          </section>
+
+
+          <section id="contato">
+            <div class="contato-container">
+              <h2>Entre em Contato com o Guia</h2>
+              <p>Tem dúvidas, quer dicas ou deseja agendar um passeio? Envie sua mensagem abaixo!</p>
+          
+              <form class="form-contato">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+          
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu melhor e-mail" required>
+          
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+          
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </section>
+          
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Todos os Direitos Reservados :: Desenvolvido por 
+          <a href="mailto:stefany.camposofc@gmail.com">stefany.camposofc@gmail.com</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
